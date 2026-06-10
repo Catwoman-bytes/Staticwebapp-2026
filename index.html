@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing | Mijn Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts voor een moderne look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigatiebalk -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Cloud<span>Computing</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#concepten">Concepten</a></li>
+                <li><a href="#architectuur">Architectuur</a></li>
+                <li><a href="#over">Over Mij</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container hero-content">
+            <h1>De Kracht van de Cloud</h1>
+            <p>Welkom op mijn static webapp, live gehost via Azure Static Web Apps en continu up-to-date dankzij GitHub Actions CI/CD.</p>
+            <a href="#concepten" class="btn">Ontdek Projecten</a>
+        </div>
+    </header>
+
+    <!-- Belangrijkste Cloud Concepten -->
+    <section id="concepten" class="section">
+        <div class="container">
+            <h2 class="section-title">Cloud Concepten</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">☁️</div>
+                    <h3>Serverless</h3>
+                    <p>Geen omkijken naar infrastructuur. Azure schaalt de applicatie automatisch op basis van het verkeer.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🚀</div>
+                    <h3>CI/CD Pipelines</h3>
+                    <p>Elke commit naar mijn GitHub repository triggert automatisch een build en deployment naar Azure.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Wereldwijde Schaal</h3>
+                    <p>Static Web Apps worden gecached op edge-locaties over de hele wereld voor minimale laadtijd.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architectuur / Azure Info -->
+    <section id="architectuur" class="section bg-light">
+        <div class="container">
+            <div class="two-column">
+                <div class="col-text">
+                    <h2 class="section-title text-left">Azure & GitHub Architectuur</h2>
+                    <p>Deze website is het levende bewijs van een moderne DevOps workflow. In plaats van handmatig bestanden te FTP'en, maakt dit project gebruik van een moderne cloud-architectuur:</p>
+                    <ul class="custom-list">
+                        <li><strong>Source Control:</strong> Code staat veilig op GitHub.</li>
+                        <li><strong>Automatisering:</strong> GitHub Actions bouwt de app bij elke push.</li>
+                        <li><strong>Hosting:</strong> Azure Static Web Apps serveert de HTML/CSS met ingebouwde SSL-certificaten.</li>
+                    </ul>
+                </div>
+                <div class="col-visual">
+                    <div class="tech-stack-box">
+                        <span class="badge github">GitHub</span>
+                        <div class="arrow">➔</div>
+                        <span class="badge azure">Azure SWA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Over Mij / Footer -->
+    <footer id="over" class="footer">
+        <div class="container">
+            <h3>Gemaakt voor het vak Cloud Computing</h3>
+            <p>Ontwikkeld door een ambitieuze student. Gedeplyoed in de cloud.</p>
+            <p class="copyright">&copy; 2026 - Cloud Computing Project</p>
+        </div>
+    </footer>
+
+</body>
+</html>
